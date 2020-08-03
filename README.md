@@ -8,3 +8,19 @@ Posizione Stazioni di rilevamento :https://www.dati.lombardia.it/Ambiente/Stazio
 IMPORTANTE :: UNIRE I DATASET DELL'INQUINAMENTO E QUELLI DELLE STAZIONI PER LOCALIZZARE I VALORI<br />
 Protezione Civile:https://github.com/pcm-dpc/COVID-19<br />
 
+## IDEA
+Si prendono i dati della protezione civile, degli inquinanti e il meteo.<\br>
+Feature engineering, dal quale si crea un dataset comune a tutti e due i sottogruppi.<\br>
+A questo punto si suddividono i due sottogruppi.<\br>
+
+### GRUPPO ROVETTA TAMBURINI
+
+
+### GRUPPO BERARDI TOMASETTI
+
+
+
+
+
+Si usano 5 giorni random (senza reinserimento) fra i 14 precedenti per predirre il dopo due giorni e il dopo quattro giorni.
+Se non funzionasse si aumentano i giorni presi random. Se non funzionasse si butta l'approccio.
