@@ -9,9 +9,9 @@ IMPORTANTE :: UNIRE I DATASET DELL'INQUINAMENTO E QUELLI DELLE STAZIONI PER LOCA
 Protezione Civile:https://github.com/pcm-dpc/COVID-19<br />
 
 ## IDEA
-Si prendono i dati della protezione civile, degli inquinanti e il meteo.<\br>
-Feature engineering, dal quale si crea un dataset comune a tutti e due i sottogruppi.<\br>
-A questo punto si suddividono i due sottogruppi.<\br>
+Si prendono i dati della protezione civile, degli inquinanti e il meteo.<br />
+Feature engineering, dal quale si crea un dataset comune a tutti e due i sottogruppi.<br />
+A questo punto si suddividono i due sottogruppi.<br />
 
 ### GRUPPO ROVETTA TAMBURINI
 
