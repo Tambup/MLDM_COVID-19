@@ -24,3 +24,6 @@ A questo punto si suddividono i due sottogruppi.<br />
 
 Si usano 5 giorni random (senza reinserimento) fra i 14 precedenti per predirre il dopo due giorni e il dopo quattro giorni.
 Se non funzionasse si aumentano i giorni presi random. Se non funzionasse si butta l'approccio.
+
+# TO DO
+Bisogna pensare a come gestire i missing value per fare le medie dei valori. Da un errore quando si formatta la data. 
