@@ -2,7 +2,7 @@
 
 This project is focused on finding correlation and creating prediction from the data of COVID-19.<br />
 
-The DataSheet Used are:<br />
+The dataSet Used are:<br />
 Dataset lombardia Inqunanti e Meteo :https://www.dati.lombardia.it/stories/s/auv9-c2sj<br />
 Posizione Stazioni di rilevamento :https://www.dati.lombardia.it/Ambiente/Stazioni-qualit-dell-aria/ib47-atvt<br />
 IMPORTANTE :: UNIRE I DATASET DELL'INQUINAMENTO E QUELLI DELLE STAZIONI PER LOCALIZZARE I VALORI<br />
@@ -24,6 +24,3 @@ A questo punto si suddividono i due sottogruppi.<br />
 
 Si usano 5 giorni random (senza reinserimento) fra i 14 precedenti per predirre il dopo due giorni e il dopo quattro giorni.
 Se non funzionasse si aumentano i giorni presi random. Se non funzionasse si butta l'approccio.
-
-# TO DO
-Bisogna pensare a come gestire i missing value per fare le medie dei valori. Da un errore quando si formatta la data. 
