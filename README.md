@@ -16,6 +16,8 @@ A questo punto si suddividono i due sottogruppi.<br />
 Si usano 6 giorni random (senza reinserimento) fra i 14 precedenti per predirre il dopo due giorni e il dopo quattro giorni.
 Se non funzionasse si aumentano i giorni presi random. Se non funzionasse si butta l'approccio.
 
+## SEED
+1 22 777 6654 432145
 
 ## ROADMAP
 Si calcolano i nuovi positivi come <b>indice "guida"</b>. <br />
