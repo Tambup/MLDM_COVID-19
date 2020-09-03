@@ -20,13 +20,9 @@ Se non funzionasse si aumentano i giorni presi random. Se non funzionasse si but
 1 22 777 6654 432145
 
 ## ROADMAP
-Si calcolano i nuovi positivi come <b>indice "guida"</b>. <br />
-Parallelamente vanno calcolati anche: ricoverati_con_sintomi, terapia_intensiva, nuovi_positivi, deceduti, nuovi ospedalizzati e dimessi.
-Poi tramite la correlazione calcoliamo dall'indice guida i valori delle feature.
-Si considera se è stato più efficace usare la correlazione o predirre tutti gli indici separatamente.<br />
-
-Inoltre si considera la "feature importance della data". <br />
-
-1) decision tree per fare feature importance.<br />
-2) si utilizzano: Random Forest, XGB, Boosting.<br />
-3) valutiamo quale modello è più preciso.
+1) Valutare in generale se cambia molto fra i vari dataset.
+2) Calcolare le medie delle feature
+2.1) Disegnare con plot => Trovo il modello migliore per un dato indice
+3) Selezione delle istanze migliori
+3.1) Per esse valutare la feature importance e vedere se determinate feature sono importanti in generale (ovvero in molte istanze).
+4) Quali feature sono predette meglio? Quali peggio?
