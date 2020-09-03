@@ -21,8 +21,8 @@ Se non funzionasse si aumentano i giorni presi random. Se non funzionasse si but
 
 ## ROADMAP
 1) Valutare in generale se cambia molto fra i vari dataset.
-2) Calcolare le medie delle feature
+2) Calcolare le medie delle feature <br />
 2.1) Disegnare con plot => Trovo il modello migliore per un dato indice
-3) Selezione delle istanze migliori
-3.1) Per esse valutare la feature importance e vedere se determinate feature sono importanti in generale (ovvero in molte istanze).
+3) Selezione delle istanze migliori <br />
+3.1) Per esse valutare la feature importance e vedere se determinate feature sono importanti in generale (ovvero in molte istanze) <br />
 4) Quali feature sono predette meglio? Quali peggio?
