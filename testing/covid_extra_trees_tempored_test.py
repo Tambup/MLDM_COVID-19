@@ -121,4 +121,4 @@ for rnd in rdn_states:
             df_results.loc[[dataset+':'+str(rnd_state)], [coefficents[2]+'_'+feature]] = maxerr
 
 
-df_results.to_csv('covid_extra_trees_test.csv')
+df_results.to_csv('covid_extra_trees_tempored_test.csv')
