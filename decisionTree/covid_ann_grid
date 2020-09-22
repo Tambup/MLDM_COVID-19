@@ -20,7 +20,7 @@
       "version": "3.8.2"
     },
     "colab": {
-      "name": "Copy of covid-dividiamo-modelli-ann-grid.ipynb",
+      "name": "covid_ann_grid.ipynb",
       "provenance": [],
       "toc_visible": true,
       "include_colab_link": true
